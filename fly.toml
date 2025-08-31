@@ -1,0 +1,10 @@
+app = "hello-kitty-webhook"
+
+[build]
+  image = "python:3.10-slim"
+
+[env]
+  # No env vars needed here if your webhook URL is in main.py
+
+[deploy]
+  release_command = "python main.py"
