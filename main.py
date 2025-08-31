@@ -4,7 +4,7 @@ import random
 import json
 import os
 
-WEBHOOK_URL = "YOUR_DISCORD_WEBHOOK_URL"
+WEBHOOK_URL = "https://discord.com/api/webhooks/1411707301391368222/78Dg-gLraRJgeomiLBkS_GRgZOXZJu2RQ_IXaXqxbZmyZGugr9_H_cp4HjYKclKNAjAv"
 USED_FILE = "used_words.json"
 
 if os.path.exists(USED_FILE):
